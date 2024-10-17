@@ -1,0 +1,279 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "Hey",
+          "Hey there"
+        ],
+        "responses": [
+          "Hello!",
+          "Good to see you again!",
+          "Hi there, how can I help?",
+          "Hey! What can I do for you today?"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "See ya",
+          "Farewell"
+        ],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Goodbye!",
+          "Have a great day!",
+          "Bye! Come back again soon."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Thanks for the help",
+          "Thank you so much"
+        ],
+        "responses": [
+          "You're welcome!",
+          "Anytime!",
+          "My pleasure",
+          "Glad I could help."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "noanswer",
+        "patterns": [],
+        "responses": [
+          "Sorry, can't understand you",
+          "Please give me more info",
+          "Not sure I understand",
+          "Could you rephrase that?"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "name",
+        "patterns": [
+          "What is your name?",
+          "What should I call you?",
+          "Who are you?",
+          "Tell me your name"
+        ],
+        "responses": [
+          "You can call me Neural.",
+          "I'm Neural!",
+          "Just call me Neural.",
+          "Neural at your service."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "weather",
+        "patterns": [
+          "What's the weather like today?",
+          "Tell me the weather",
+          "Is it going to rain today?",
+          "How's the weather?",
+          "Weather forecast"
+        ],
+        "responses": [
+          "I'm not connected to the internet, so I can't provide real-time weather updates.",
+          "I can't check the weather, but I hope it's nice where you are!",
+          "Sorry, I don't have access to current weather data."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "how_are_you",
+        "patterns": [
+          "How are you?",
+          "How's it going?",
+          "How are you doing?",
+          "How have you been?"
+        ],
+        "responses": [
+          "I'm just a bunch of code, but I'm here to help you!",
+          "I'm functioning as expected. How can I assist you?",
+          "Doing great! How about you?"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "daytime",
+        "patterns": [
+          "What day is it today?",
+          "What's today?",
+          "Tell me the date",
+          "What's the day today?"
+        ],
+        "responses": [
+          "I'm sorry, I don't have access to the current date.",
+          "I can't check the date, but I hope you're having a good day!",
+          "I don't have the ability to tell the date right now."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "favorite_sport",
+        "patterns": [
+          "What's your favorite sport?",
+          "Do you like sports?",
+          "Which sport do you prefer?",
+          "Favorite sport?"
+        ],
+        "responses": [
+          "I don't have preferences, but I can talk about any sport you're interested in!",
+          "I enjoy discussing all kinds of sports. What's your favorite?",
+          "I don't play sports, but I can provide information about them."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "sports_news",
+        "patterns": [
+          "What's the latest sports news?",
+          "Any sports updates?",
+          "Tell me about recent sports events",
+          "Latest sports news"
+        ],
+        "responses": [
+          "I don't have access to live data, so I can't provide current sports news.",
+          "Sorry, I can't fetch the latest sports updates.",
+          "I don't have real-time information, but I can talk about sports in general."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "football",
+        "patterns": [
+          "Tell me about football",
+          "What's happening in football?",
+          "Football news",
+          "Tell me about the latest football game"
+        ],
+        "responses": [
+          "Football is a popular sport worldwide. What would you like to know specifically?",
+          "I can discuss football rules, teams, and history. What interests you?",
+          "I don't have the latest updates, but I can provide general football information."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "basketball",
+        "patterns": [
+          "Tell me about basketball",
+          "What's happening in basketball?",
+          "Basketball news",
+          "Tell me about the latest basketball game"
+        ],
+        "responses": [
+          "Basketball is a fast-paced sport. What would you like to know about it?",
+          "I can talk about basketball rules, teams, and history. What interests you?",
+          "I don't have the latest updates, but I can provide general basketball information."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "player_info",
+        "patterns": [
+          "Tell me about LeBron James",
+          "Who is Lionel Messi?",
+          "Info on Tom Brady",
+          "Tell me about Serena Williams"
+        ],
+        "responses": [
+          "I can provide general information about famous athletes. What would you like to know?",
+          "I'm not connected to the internet, so I can't fetch real-time data, but I can share what I know.",
+          "I can tell you about their achievements and careers up to my knowledge cutoff."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "joke",
+        "patterns": [
+          "Tell me a joke",
+          "Make me laugh",
+          "I need a joke",
+          "Got any jokes?"
+        ],
+        "responses": [
+          "Why did the computer go to the doctor? Because it had a virus!",
+          "Why don't scientists trust atoms? Because they make up everything!",
+          "I'm reading a book about anti-gravity. It's impossible to put down!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "compliment",
+        "patterns": [
+          "You are smart",
+          "You're helpful",
+          "I like you",
+          "You're awesome"
+        ],
+        "responses": [
+          "Thank you! I'm here to help.",
+          "I appreciate that!",
+          "Thanks! Let me know if you need anything else."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "insult",
+        "patterns": [
+          "You're stupid",
+          "You are useless",
+          "I hate you",
+          "You're bad"
+        ],
+        "responses": [
+          "I'm sorry you feel that way.",
+          "I'm here to help if you need anything.",
+          "Let's keep things positive! How can I assist you?"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "hours",
+        "patterns": [
+          "What are your hours?",
+          "When are you open?",
+          "What time do you close?"
+        ],
+        "responses": [
+          "I'm available 24/7 to assist you!",
+          "I'm always here to help, anytime you need.",
+          "I don't have working hours. Feel free to reach out anytime."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "Help me",
+          "I need assistance",
+          "Can you help me?",
+          "I need help"
+        ],
+        "responses": [
+          "Sure, I'm here to help! What do you need assistance with?",
+          "Absolutely, how can I assist you today?",
+          "Of course! Let me know how I can help."
+        ],
+        "context_set": ""
+      }
+    ]
+  }  
